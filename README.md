@@ -7,7 +7,6 @@
   git clone repository-url
 
 # 2. Install Dependencies
-   cd backend
    npm install
 
 # 3.Set Up Environment Variables:
@@ -20,11 +19,7 @@ PORT=8090# Or any desired port number
 MONGODB_URI=<your-mongodb-uri>
 
 # 4.Start the Backend Server:
-cd backend
-
 npm start
-
-
 
 Node.js and Express.js were chosen for the backend due to their lightweight and fast nature, making them ideal for building scalable and high-performance server-side applications.
 Express.js provides a minimalist framework for building robust APIs, handling HTTP requests, and defining routes.
