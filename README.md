@@ -3,9 +3,7 @@
 
 # Setup Instructions
 
-1. Clone the Repository:
-   
-open git bash :git clone <repository-url>
+1. Clone the Repository:open git bash :git clone repository-url
 
 3. Install Dependencies:cd backend
                         npm install
