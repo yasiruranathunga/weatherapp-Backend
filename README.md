@@ -42,16 +42,16 @@ The backend is deployed using Render, a modern cloud provider built for develope
 # Configuration:
 
 Set up a Render account and create a new web service.
+
 Configure environment variables such as MONGODB_URI in the Render dashboard.
-Deployment:
+Deployment
 
 Connect the Render service to your GitHub repository.
+
 Trigger automatic deployments whenever changes are pushed to the main branch.
-Continuous Integration/Continuous Deployment (CI/CD):
+
+Continuous Integration/Continuous Deployment (CI/CD)
 
 Utilize Render's built-in CI/CD pipeline to automate the deployment process.
 Ensure that the application is automatically deployed and updated whenever changes are made to the repository.
-Monitoring and Maintenance:
 
-Monitor the application's performance and health using Render's dashboard and logging features.
-Perform regular maintenance and updates to ensure the security and stability of the deployed application.
