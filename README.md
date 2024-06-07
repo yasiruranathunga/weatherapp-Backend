@@ -5,12 +5,10 @@
 
 1. Clone the Repository:
    
-open git bash
-git clone <repository-url>
+open git bash :git clone <repository-url>
 
-3. Install Dependencies:
-cd backend
-npm install
+3. Install Dependencies:cd backend
+                        npm install
 
 3.Set Up Environment Variables:
 
