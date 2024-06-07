@@ -3,12 +3,14 @@
 
 # Setup Instructions
 
-1. Clone the Repository:open git bash :git clone repository-url
+# 1.Clone the Repository:
+  git clone repository-url
 
-3. Install Dependencies:cd backend
-                        npm install
+# 2. Install Dependencies
+   cd backend
+   npm install
 
-3.Set Up Environment Variables:
+# 3.Set Up Environment Variables:
 
 Create a .env file in the backend directory.
 Add the following variables:
@@ -17,7 +19,7 @@ Copy code
 PORT=8090# Or any desired port number
 MONGODB_URI=<your-mongodb-uri>
 
-4.Start the Backend Server:
+# 4.Start the Backend Server:
 cd backend
 npm start
 
@@ -25,17 +27,18 @@ npm start
 
 Node.js and Express.js were chosen for the backend due to their lightweight and fast nature, making them ideal for building scalable and high-performance server-side applications.
 Express.js provides a minimalist framework for building robust APIs, handling HTTP requests, and defining routes.
-Database: MongoDB
+
+# Database: MongoDB
 
 MongoDB was chosen as the database for its flexibility, scalability, and ease of use with Node.js.
 Mongoose, an Object Data Modeling (ODM) library for MongoDB and Node.js, is used for schema validation and interaction with the MongoDB database.
 Deployment Process
 
-5.Backend Deployment
+# 5.Backend Deployment
 
 The backend is deployed using Render, a modern cloud provider built for developers. The deployment process involves:
 
-Configuration:
+# Configuration:
 
 Set up a Render account and create a new web service.
 Configure environment variables such as MONGODB_URI in the Render dashboard.
